@@ -1,6 +1,7 @@
 {
   "name": "fundamentos",
   "private": true,
+  "homepage": "https://yandrorb.github.io/counter-component",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
