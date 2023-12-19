@@ -1,0 +1,50 @@
+.container{
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  grid-template-rows: 50px 1fr 50px;
+  place-items: center;
+  transition: background-color 1s ease-in-out;
+  gap: 25px;
+}
+.title{
+  text-transform: uppercase;
+  grid-column: 1/ span 3;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.number{
+  grid-column: 2/2;
+  width: 200px;
+  height: 200px;
+  display: grid;
+  place-content:center;
+  font-weight: 800;
+  font-size: 150px;
+  line-height: 0;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+.buttons{
+  font-weight: 600;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+}
+.buttons:hover{
+  cursor: pointer;
+}
+.plus,.minus{
+  font-size: 50px;
+}
+.plus{
+  grid-column: 3/3;
+  grid-row: 2/2;
+}
+.minus{
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+.reset{
+  grid-column: 1/ span 3;
+  font-size: 1.5em;
+}
