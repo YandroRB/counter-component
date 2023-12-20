@@ -18,8 +18,8 @@ function App(){
       <h2 className="title">Counter</h2>
       <div className="number">{count}</div>
       <Fragment>
-      <button onClick={handdleAdd} className="buttons plus">┼</button>
-      <button onClick={handdleMinus} className="buttons minus">—</button>
+      <button onClick={handdleAdd} className="buttons plus">+</button>
+      <button onClick={handdleMinus} className="buttons minus">-</button>
       <button onClick={handdleReset} className="buttons reset">Reset</button>
       </Fragment>
 
